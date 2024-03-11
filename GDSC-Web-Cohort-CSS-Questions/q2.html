@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ques1</title>
+    <style>
+        .container{
+            position: absolute;
+        }
+        .rect1{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top: 30px;
+            left: 50px;
+        }
+        .rect2{
+            background-color: rgb(125, 38, 38);
+            height: 100px;
+            width: 100px;
+            position: relative;
+            left: 100px;
+            z-index: 1;
+        }
+        .rect3{
+            background-color: rgb(213, 114, 114);
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top: -30px;
+            left: 150px;
+        }
+        .circle{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            border-radius: 100%;
+            position: absolute;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="circle">
+            <div class="rect3"></div>
+        </div>
+    </div>
+</body>
+</html> 
